@@ -1,5 +1,5 @@
 # Titanic
-Análise do conjunto de dados do Titanic disponível no [Kaggle](https://www.kaggle.com/competitions/titanic)**
+Análise do conjunto de dados do Titanic disponível no [Kaggle](https://www.kaggle.com/competitions/titanic)
 
 A trajetória dos resultados é apresentada a seguir e está acessível no [Kaggle](https://www.kaggle.com/raquelcunha)
 <img src='https://github.com/Raqueljkl1/Titanic/blob/main/img/Line%20Graph%20-%20Blank%20Presentation%20(4).png'>
@@ -13,7 +13,7 @@ Nesta primeira fase, foram realizados procedimentos básicos para avaliar os res
 
 Nesta fase subsequente, o foco foi o tratamento das variáveis de texto, permitindo a inclusão de todas elas no modelo. Através do uso de lambda functions e OneHotEncoder, os modelos prévios foram reaplicados. O score público do Kaggle melhorou para 0,76555.
 
-## **[Etapa 3: Enhanced Data Treatment and Business Understanding]()**
+## **[Etapa 3: Enhanced Data Treatment and Business Understanding](https://github.com/Raqueljkl1/Titanic/blob/main/An%C3%A1lise_do_Titanic_Parte_3.ipynb)**
 
 A terceira etapa visava uma compreensão mais profunda dos dados para aprimorar seu tratamento e buscar melhorias nos resultados. Foram realizadas a normalização das colunas Age e Fare, assim como a criação de novas colunas relacionadas às colunas SibSp (nº de irmãos/cônjuges a bordo do Titanic) e Parch (nº de pais/filhos a bordo do Titanic). Uma análise de correlação levou à seleção das variáveis mais relevantes para o modelo. Os algoritmos previamente utilizados foram mantidos. O score público do Kaggle melhorou para 0,77033.
 
