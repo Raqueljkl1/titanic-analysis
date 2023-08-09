@@ -2,7 +2,7 @@
 Análise do conjunto de dados do Titanic disponível no [Kaggle](https://www.kaggle.com/competitions/titanic)
 
 A trajetória dos resultados é apresentada a seguir e está acessível no [Kaggle](https://www.kaggle.com/raquelcunha)
-<img src='https://github.com/Raqueljkl1/Titanic/blob/main/img/Line%20Graph%20-%20Blank%20Presentation%20(5).png'>
+<img src='https://github.com/Raqueljkl1/Titanic/blob/main/img/Line%20Graph%20-%20Blank%20Presentation%20(6).png'>
 
 
 ## **[Etapa 1: Inicial Model Development](https://github.com/Raqueljkl1/Titanic/blob/main/An%C3%A1lise_do_Titanic_Parte_1.ipynb)**
