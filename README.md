@@ -17,10 +17,10 @@ Nesta fase subsequente, o foco foi o tratamento das variáveis de texto, permiti
 
 A terceira etapa visava uma compreensão mais profunda dos dados para aprimorar seu tratamento e buscar melhorias nos resultados. Foram realizadas a normalização das colunas Age e Fare, assim como a criação de novas colunas relacionadas às colunas SibSp (nº de irmãos/cônjuges a bordo do Titanic) e Parch (nº de pais/filhos a bordo do Titanic). Uma análise de correlação levou à seleção das variáveis mais relevantes para o modelo. Os algoritmos previamente utilizados foram mantidos. O score público do Kaggle melhorou para 0,77033.
 
-## **[Etapa 4: Exploring Alternative Algorithms]()**
+## **[Etapa 4: Exploring Alternative Algorithms](https://github.com/Raqueljkl1/Titanic/blob/main/An%C3%A1lise_do_Titanic_Parte_4.ipynb)**
 
 Nessa fase, todas as colunas foram mantidas, incluindo SibSp e Parch. Novos algoritmos foram introduzidos para avaliar o desempenho do modelo. Além da Regressão Logística (que mostrou melhores resultados anteriormente), o RandomForest e o MLPClassifier (Redes Neurais) foram utilizados. Embora o MLPClassifier tenha demonstrado alta acurácia nos dados de validação, o resultado nos dados de teste indicou overfitting. O score público do Kaggle foi 0,69856.
 
-## **[Etapa 5: GridSearchCV and Parameter Tuning]()**
+## **[Etapa 5: GridSearchCV and Parameter Tuning](https://github.com/Raqueljkl1/Titanic/blob/main/An%C3%A1lise_do_Titanic_Parte_5.ipynb)**
 
 Nesta etapa, o GridSearchCV foi empregado para otimizar os parâmetros dos modelos usados anteriormente. O modelo escolhido foi o RandomForest, e os resultados melhoraram significativamente em relação à etapa 4, superando também o desempenho da etapa 3. O score público do Kaggle foi 0,78229.
